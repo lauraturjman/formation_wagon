@@ -1,7 +1,133 @@
-Coucou un truc 
-je rajoute une ligne
+<!DOCTYPE html>
+<html lang="fr">
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .article {
+            flex: 1;
+            min-width: 250px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de la page pour les moteurs de recherche et les réseaux sociaux">
+    <meta name="keywords" content="mot-clé1, mot-clé2, mot-clé3">
+    <meta name="author" content="Nom de l'auteur">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:title" content="Titre de la page">
+    <meta property="og:description" content="Description de la page pour les réseaux sociaux">
+    <meta property="og:image" content="https://www.example.com/image.jpg">
 
-text add 
-hyfgtf
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.example.com">
+    <meta property="twitter:title" content="Titre de la page">
+    <meta property="twitter:description" content="Description de la page pour Twitter">
+    <meta property="twitter:image" content="https://www.example.com/image.jpg">
+    
+    <title>Titre de la page</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<nav>
+    <div class="logo">Mon Site</div>
+    <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-je modifie ma feature perso 
+<div class="container">
+    <img src="https://via.placeholder.com/1200x400" alt="Image de couverture">
+    
+    <div class="articles">
+        <div class="article">
+            <h2>Article 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae turpis a lacus laoreet pharetra.</p>
+        </div>
+        <div class="article">
+            <h2>Article 2</h2>
+            <p>Nullam fermentum nulla at est ultrices, ac convallis nulla pulvinar. Phasellus scelerisque orci ut felis feugiat.</p>
+        </div>
+        <div class="article">
+            <h2>Article 3</h2>
+            <p>Integer ac ligula non nulla tincidunt feugiat non sit amet massa. In at varius nunc. Sed bibendum erat a augue facilisis.</p>
+        </div>
+    </div>
+</div>
+
+<h1>Bienvenue sur mon site web</h1>
+    <p>Ceci est un exemple de page HTML avec des métadonnées.</p>
+
+
+<div> Coucou un truc 
+    je rajoute une ligne
+    
+    text add 
+    hyfgtf
+    
+    je modifie ma feature perso </div>
+
+
+<footer>
+    &copy; 2024 Mon Site. Tous droits réservés.
+</footer>
+</body>
+</html>
+
